@@ -1,32 +1,32 @@
-# RAG 101: Cooking Up Smart AI Answers
+# 🍳 RAG 101: Cooking Up Smart AI Answers
 
 Think of RAG like cooking a perfect dish - you need the right ingredients and a simple recipe!
 
-## INGREDIENTS (What You Need):
+## 🥘 INGREDIENTS (What You Need):
 
-- **PDF Reader** - To read documents (like a recipe book)
-- **Embedding Model** - Converts text to numbers (like a food processor)
-- **Vector Database** - Stores the processed text (like a smart fridge)
-- **Language Model** - Generates answers (like a master chef)
+- **PDF Reader** 📖 - To read documents (like a recipe book)
+- **Embedding Model** 🧠 - Converts text to numbers (like a food processor)
+- **Vector Database** 🗄️ - Stores the processed text (like a smart fridge)
+- **Language Model** 🤖 - Generates answers (like a master chef)
 
-## RECIPE (Step-by-Step):
+## 👨‍🍳 RECIPE (Step-by-Step):
 
 ### Prep Work:
-1. **Get your tools ready**
+1. **Get your tools ready** 🔧
    - Install Ollama: `ollama pull qwen3-embedding:4b` and `ollama pull qwen3:4b`
    - Set up Pinecone account and get API key
    - Put your API key in `config.py`
 
 ### Cooking Steps:
-2. **Chop your ingredients** - Read and chunk your PDF into bite-sized pieces
-3. **Process the chunks** - Convert each text chunk into a vector (like blending)
-4. **Store in the fridge** - Save all vectors in your database
-5. **Take an order** - User asks a question
-6. **Find the right ingredients** - Search for relevant chunks using the question
-7. **Mix everything together** - Combine the question with found information
-8. **Serve the dish** - Generate the final answer using the language model
+2. **Chop your ingredients** ✂️ - Read and chunk your PDF into bite-sized pieces
+3. **Process the chunks** 🥄 - Convert each text chunk into a vector (like blending)
+4. **Store in the fridge** ❄️ - Save all vectors in your database
+5. **Take an order** 📝 - User asks a question
+6. **Find the right ingredients** 🔍 - Search for relevant chunks using the question
+7. **Mix everything together** 🥗 - Combine the question with found information
+8. **Serve the dish** 🍽️ - Generate the final answer using the language model
 
-## Quick Start:
+## 🚀 Quick Start:
 
 ```bash
 # Install dependencies
